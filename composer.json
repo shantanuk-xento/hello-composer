@@ -1,0 +1,15 @@
+{
+    "name": "skondhalkar/hello-composer",
+    "require": {
+        "php": "^7.0"
+    },
+	"autoload": {
+        "psr-4": {"skondhalkar\\FirstPackage\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Shantanu Kondhalkar",
+            "email": "skondhalkar@xento.com"
+        }
+    ]
+}
